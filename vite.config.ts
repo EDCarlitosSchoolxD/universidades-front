@@ -8,5 +8,8 @@ export default defineConfig({
     host: true,
     port:3000
 
+  },
+  define:{
+    'process.env.REACT_APP_API': `${process.env.REACT_APP_API}`
   }
 })

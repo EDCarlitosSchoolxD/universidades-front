@@ -1,0 +1,12 @@
+.admin-administrar{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-admin{
+    width: 300px;
+    height: 140px;
+}

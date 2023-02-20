@@ -1,0 +1,19 @@
+.titulo{
+    text-align: center;
+    color: var(--color-secundario);
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 4rem 0;
+    font-family: serif;
+}
+
+.paginate-container{
+    width: 80%;
+    max-width: 120rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
