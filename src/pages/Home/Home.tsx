@@ -1,6 +1,9 @@
 import React from 'react'
 import { Navegacion } from '../../components/Navegacion/Navegacion'
 import quintana from '../../assets/slide/slide-1.jpg';
+import yucatan from '../../assets/slide/slide-2.jpg';
+import unis from '../../assets/slide/slide-1.jpg';
+
 import { Link } from 'react-router-dom';
 import './Home.css'
 import about from '../../assets/about.jpg';
@@ -10,18 +13,58 @@ import portfolio3 from '../../assets/home/portfolio-3.jpg'
 import portfolio4 from '../../assets/home/portfolio-4.jpg'
 import portfolio5 from '../../assets/home/portfolio-5.jpg'
 import portfolio6 from '../../assets/home/portfolio-6.jpg'
+import { Carousel } from 'flowbite-react';
 
 
 export const Home = () => {
 
   console.log(process.env.REACT_APP_API_KEY)
   
+
+
   return (
     <>
       <Navegacion />
+      <div className="h-85v">
+  <Carousel className=''>
+
+    <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
+      <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
+      <img src={quintana} alt="" className='h-full w-full' />
+      </div>
+      <div  className='absolute z-50 flex justify-center flex-col text-center gap-8'>
+        <h2 className='text-7xl text-white' >Quintana Roo</h2>
+        <p className='tracking-widest text-white'>TODAS LAS OPORTUNIDADES QUE TE PUEDEN OFRECER</p>
+        <a className='bg-white rounded-3xl p-3 pr-8  pl-8 font-bold text-center m-auto' href="/quintanaroo">Comenzemos</a>
+      </div>
+    </div>
 
 
-      
+    <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
+      <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
+      <img src={yucatan} alt="" className='h-full w-full' />
+      </div>
+      <div  className='absolute flex justify-center flex-col text-center gap-8'>
+        <h2 className='text-7xl text-white' >Yucatan</h2>
+        <p className='tracking-widest text-white'>TODAS LAS OPORTUNIDADES QUE TE PUEDEN OFRECER</p>
+        <a className='bg-white rounded-3xl p-3 pr-8  pl-8 font-bold text-center m-auto' href="/yucatan">Comenzemos</a>
+      </div>
+    </div>
+
+    <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
+      <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
+      <img src={quintana} alt="" className='h-full w-full' />
+      </div>
+      <div  className='absolute flex justify-center flex-col text-center gap-8'>
+        <h2 className='text-7xl text-white' >Quintana Roo</h2>
+        <p className='tracking-widest text-white'>TODAS LAS OPORTUNIDADES QUE TE PUEDEN OFRECER</p>
+        <a className='bg-white rounded-3xl p-3 pr-8  pl-8 font-bold text-center m-auto' href="/quintanaroo">Comenzemos</a>
+      </div>
+    </div>
+
+  
+  </Carousel>
+</div>
     <section className="container home-razones">
 
       <div className='razones-img'>

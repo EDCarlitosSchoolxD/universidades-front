@@ -16,14 +16,22 @@
       linear-gradient(transparent, transparent, #0006);
   }
 
-  /** SWIPPER*/
-  .swiper-wrapper {
-    max-width: 1900px;
+
+  .img-slide::after{
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: black;
+      opacity: .4;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
   }
 
-  .img-slide{
-    width: 100%;
-  }
+  /** SWIPPER*/
+
 /** ELiminar esto, temporal hasta terminar el slide**/
 
   

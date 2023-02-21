@@ -16,7 +16,7 @@ export const Navegacion = () => {
   return (
     <nav className='nav'>
         <div className='navHomeLogo'>
-            <img src={logo} alt="logo" />
+            <a href="/"> <img src={logo} alt="logo" /> </a>
         </div>
 
 
@@ -29,7 +29,7 @@ export const Navegacion = () => {
         <NavOption  href="/yucatan" text="Yucatán" />
         <form className='nav-buscador'>
             <input className='nav-buscador-input' type="text" name='buscar' />
-            <button className='nav-buscador-submit' type="submit" ><BsSearch/></button>
+            <button className='nav-buscador-submit text-black' type="submit" ><BsSearch/></button>
         </form>
 
         </div>
