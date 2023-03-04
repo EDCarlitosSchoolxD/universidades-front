@@ -3,9 +3,9 @@ import React from 'react'
 
 export const FormModal = (props:any) => {
   return (
-  <Modal
+  <Modal className=''
     show={props.show}
-    size="md"
+    size={props.size?props.size:"xl"}
     popup={true}
     onClose={props.onClose}
   >

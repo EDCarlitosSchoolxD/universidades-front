@@ -58,3 +58,18 @@ html {
   flex-wrap: wrap;
   gap: 3rem;
 }
+
+.map-container{
+  width: 100%;
+  padding: 3rem;
+  min-height: 400px;
+}
+
+.h-image{
+  max-height: 45rem;
+}
+@media (min-width: 768px) {
+  .uni--info {
+      grid-template-columns: 1fr 2fr;
+  }
+}

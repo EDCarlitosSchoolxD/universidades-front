@@ -25,12 +25,12 @@ export const Home = () => {
   return (
     <>
       <Navegacion />
-      <div className="h-85v">
+      <div className="h-90v">
   <Carousel className=''>
 
     <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
       <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
-      <img src={quintana} alt="" className='h-full w-full' />
+      <img loading="lazy"  src={quintana} alt="" className='h-full w-full' />
       </div>
       <div  className='absolute z-50 flex justify-center flex-col text-center gap-8'>
         <h2 className='text-7xl text-white' >Quintana Roo</h2>
@@ -42,7 +42,7 @@ export const Home = () => {
 
     <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
       <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
-      <img src={yucatan} alt="" className='h-full w-full' />
+      <img loading="lazy"  src={yucatan} alt="" className='h-full w-full' />
       </div>
       <div  className='absolute flex justify-center flex-col text-center gap-8'>
         <h2 className='text-7xl text-white' >Yucatan</h2>
@@ -53,7 +53,7 @@ export const Home = () => {
 
     <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
       <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
-      <img src={quintana} alt="" className='h-full w-full' />
+      <img loading="lazy"  src={quintana} alt="" className='h-full w-full' />
       </div>
       <div  className='absolute flex justify-center flex-col text-center gap-8'>
         <h2 className='text-7xl text-white' >Quintana Roo</h2>
@@ -68,7 +68,7 @@ export const Home = () => {
     <section className="container home-razones">
 
       <div className='razones-img'>
-        <img src={about} alt="" />
+        <img loading="lazy"  src={about} alt="" />
       </div>
     <div className='razones-contenido'>
       <h1>Razones por las que es bueno estudiar la universidad</h1>
@@ -88,12 +88,12 @@ export const Home = () => {
     <section className="home-galeria container">
     <h1>ANÍMATE A ESTUDIAR EN ESTOS BELLOS LUGARES</h1>
     <div className='galeria--img'>
-      <img src={portfolio1} alt="" />
-      <img src={portfolio2} alt="" />
-      <img src={portfolio3} alt="" />
-      <img src={portfolio4} alt="" />
-      <img src={portfolio5} alt="" />
-      <img src={portfolio6} alt="" />
+      <img loading="lazy"  src={portfolio1} alt="" />
+      <img loading="lazy"  src={portfolio2} alt="" />
+      <img loading="lazy"  src={portfolio3} alt="" />
+      <img loading="lazy"  src={portfolio4} alt="" />
+      <img loading="lazy"  src={portfolio5} alt="" />
+      <img loading="lazy"  src={portfolio6} alt="" />
     </div>
     
     </section>
