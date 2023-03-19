@@ -14,6 +14,7 @@ import portfolio4 from '../../assets/home/portfolio-4.jpg'
 import portfolio5 from '../../assets/home/portfolio-5.jpg'
 import portfolio6 from '../../assets/home/portfolio-6.jpg'
 import { Carousel } from 'flowbite-react';
+import { Footer } from '../../components/Footer/Footer';
 
 
 export const Home = () => {
@@ -26,19 +27,7 @@ export const Home = () => {
     <>
       <Navegacion />
       <div className="h-90v">
-  <Carousel className=''>
-
-    <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
-      <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
-      <img loading="lazy"  src={quintana} alt="" className='h-full w-full' />
-      </div>
-      <div  className='absolute z-50 flex justify-center flex-col text-center gap-8'>
-        <h2 className='text-7xl text-white' >Quintana Roo</h2>
-        <p className='tracking-widest text-white'>TODAS LAS OPORTUNIDADES QUE TE PUEDEN OFRECER</p>
-        <a className='bg-white rounded-3xl p-3 pr-8  pl-8 font-bold text-center m-auto' href="/quintanaroo">Comenzemos</a>
-      </div>
-    </div>
-
+    <Carousel >
 
     <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white relative">
       <div className='relative h-full w-full after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0 after:content-[""] after:w-full after:h-full after:bg-black after:opacity-50'>
@@ -61,7 +50,6 @@ export const Home = () => {
         <a className='bg-white rounded-3xl p-3 pr-8  pl-8 font-bold text-center m-auto' href="/quintanaroo">Comenzemos</a>
       </div>
     </div>
-
   
   </Carousel>
 </div>
@@ -99,7 +87,11 @@ export const Home = () => {
     </section>
 
 
+    <Footer />
+
     </>
+
+
 
     )
 }

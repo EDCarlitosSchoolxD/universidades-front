@@ -3,10 +3,10 @@ import { Image } from "./Image";
 
 
 export class Estado{
-    private id:number|null = null;
-    private nombre:string = "";
-    private image:Image|null = null;
-    private slug:String = "";
+    public id:number|null = null;
+    public nombre:string = "";
+    public image:Image|null = null;
+    public slug:String = "";
 
 
     constructor(args:{id:number|null,nombre:string,image:Image|null,slug:String}){

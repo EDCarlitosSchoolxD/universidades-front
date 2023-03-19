@@ -8,7 +8,9 @@
   --color-button-paginate:rgb(19, 101, 148);
 }
 
-
+footer{
+  background-color: #0b2136;
+}
 
 *{
   margin: 0;
@@ -16,7 +18,11 @@
 }
 body{
   font-family: 'Open Sans', sans-serif;
+  
+}
 
+li{
+  list-style-type: disc;
 }
 
 html{
@@ -73,3 +79,9 @@ html {
       grid-template-columns: 1fr 2fr;
   }
 }
+
+.card--imagen{
+  height: 200px;
+  width: 260px
+}
+

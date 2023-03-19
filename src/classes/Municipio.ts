@@ -9,15 +9,16 @@ export class Municipio{
     
     public estado: Estado | null = null;
     
-    private image: Image | null = null;
+    public image: Image | null = null;
     
+    public slug:String = "";
 
-
-    constructor(args:{id:number|null,nombre:string,estado:Estado|null,image:Image|null}){
+    constructor(args:{id:number|null,nombre:string,estado:Estado|null,image:Image|null,slug:string}){
         this.id = args.id;
         this.nombre = args.nombre;
         this.estado = args.estado;
         this.image = args.image;
+        this.slug = args.slug;
     }
 
 
